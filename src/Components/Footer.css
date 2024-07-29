@@ -1,0 +1,20 @@
+Footer {
+    background-color: #eee;
+    display: flex;
+    align-items: flex-start;
+
+    .list-unstyled {
+        list-style-type: none;
+    };
+
+    .list-unstyled li::before{
+        content: '>';
+        color: blue;
+        position: relative;
+          
+    }
+
+    .copyright {
+        background-color: #444;
+    }
+}
