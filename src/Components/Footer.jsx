@@ -32,19 +32,19 @@ function Footer() {
                     <h6 className="fw-bold">Liens utiles</h6>
                         <ul className="list-unstyled mb-0">
                         <li>
-                            <a class="text-body" href="#!">Accueil</a>
+                            <a class="text-decoration-none text-black" href="#!">Accueil</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">A Propos</a>
+                            <a class="text-decoration-none text-black" href="#!">A Propos</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">Services</a>
+                            <a class="text-decoration-none text-black" href="#!">Services</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">Me contacter</a>
+                            <a class="text-decoration-none text-black" href="#!">Me contacter</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">Mentions légales</a>
+                            <a class="text-decoration-none text-black" href="#!">Mentions légales</a>
                         </li>
                         </ul>
                 </div>
@@ -53,13 +53,13 @@ function Footer() {
                     <h6 className="fw-bold">Mes dernières réalisations</h6>
                     <ul className="list-unstyled mb-0">
                         <li>
-                            <a class="text-body" href="#!">Fresh Food</a>
+                            <a class="text-decoration-none text-black" href="#!">Fresh Food</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">Restaurant Akira</a>
+                            <a class="text-decoration-none text-black" href="#!">Restaurant Akira</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">Espace bien-être</a>
+                            <a class="text-decoration-none text-black" href="#!">Espace bien-être</a>
                         </li>
                     </ul>
                 </div>
@@ -68,13 +68,13 @@ function Footer() {
                     <h6 className="fw-bold">Mes derniers articles</h6>
                         <ul className="list-unstyled mb-0">
                         <li>
-                            <a class="text-body" href="#!">Coder son site en HTML/CSS</a>
+                            <a class="text-decoration-none text-black" href="#!">Coder son site en HTML/CSS</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">Vendre ses produits sur le web</a>
+                            <a class="text-decoration-none text-black" href="#!">Vendre ses produits sur le web</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#!">Se positionner sur Google</a>
+                            <a class="text-decoration-none text-black" href="#!">Se positionner sur Google</a>
                         </li>
                     </ul>
                 </div>

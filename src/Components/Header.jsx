@@ -1,9 +1,10 @@
 import React from "react";
+import '../Components/Header.css'
 
 function Header() {
     return(
        <header className="header-custom">
-        <nav class="navbar navbar-expand-lg bg-secondary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
 
                 <a class="navbar-brand fw-bold text-white" href="#">ADELINE CANON</a>
