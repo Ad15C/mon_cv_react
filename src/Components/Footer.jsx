@@ -6,14 +6,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Footer() {
   return (
     <footer className="w-100 py-4 flex-wrap fixed-bottom ">
-        <div className="container p-4">
-            <div className="row">
+        <div className="container d-flex justify-content-evenly p-4">
+            <div className="row gx-5 ">
                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <div className="adress">
-                        <h6 className="fw-bold">John Doe</h6>
-                        <p>40 rue Laure Debiold</p>
-                        <p>69009 Lyon, France</p>
-                        <p>Téléphone: 06 20 30 40 50</p>
+                    <div className="adress lh-1">
+                        <h6 className="fw-bold text-start">John Doe</h6>
+                        <p className="text-start">40 rue Laure Debiold</p>
+                        <p className="text-start">69009 Lyon, France</p>
+                        <p className="text-start">Téléphone: 06 20 30 40 50</p>
                     </div>
                     <div className="row mt-3 ">
                         <div className="col-Github">
@@ -29,13 +29,13 @@ function Footer() {
                 </div>
 
                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h6 className="fw-bold">Liens utiles</h6>
-                        <ul className="list-unstyled mb-0">
+                    <h6 className="fw-bold text-start">Liens utiles</h6>
+                        <ul className="list-unstyled mb-0 text-start">
                         <li>
                             <a class="text-decoration-none text-black" href="#!">Accueil</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">A Propos</a>
+                            <a class="text-decoration-none text-black " href="#!">A Propos</a>
                         </li>
                         <li>
                             <a class="text-decoration-none text-black" href="#!">Services</a>
@@ -50,8 +50,8 @@ function Footer() {
                 </div>
 
                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h6 className="fw-bold">Mes dernières réalisations</h6>
-                    <ul className="list-unstyled mb-0">
+                    <h6 className="fw-bold text-start">Mes dernières réalisations</h6>
+                    <ul className="list-unstyled mb-0 text-start">
                         <li>
                             <a class="text-decoration-none text-black" href="#!">Fresh Food</a>
                         </li>
@@ -65,16 +65,16 @@ function Footer() {
                 </div>
 
                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h6 className="fw-bold">Mes derniers articles</h6>
-                        <ul className="list-unstyled mb-0">
+                    <h6 className="fw-bold text-start">Mes derniers articles</h6>
+                        <ul className="list-unstyled mb-0 text-start">
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Coder son site en HTML/CSS</a>
+                            <a className="text-decoration-none text-black" href="#!">Coder son site en HTML/CSS</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Vendre ses produits sur le web</a>
+                            <a className="text-decoration-none text-black" href="#!">Vendre ses produits sur le web</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Se positionner sur Google</a>
+                            <a className="text-decoration-none text-black" href="#!">Se positionner sur Google</a>
                         </li>
                     </ul>
                 </div>
@@ -82,11 +82,10 @@ function Footer() {
         </div>
 
       
-        <div class="container text-center text-white">
+        <div className="container text-center text-white ">
             <div className="copyright">
-
               <p>&copy; Designed by John Doe</p>
-              </div>
+            </div>
       
         </div>
     </footer> 
