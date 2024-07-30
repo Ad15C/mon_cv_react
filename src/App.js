@@ -14,15 +14,8 @@ function App() {
 
        <Header />
 
-       <nav>
-          <Link to='/'>Accueil</Link>
-          <Link to='/Services'>Services</Link>
-          <Link to='/Blog'>Blog</Link>
-          <Link to='/Realisations'>Realisations</Link>
-          <Link to='/Contact'>Me Contacter</Link>
-       </nav>
-       <Routes>
-        <Route path='/' element={<Home />}>Home</Route> 
+      <Routes>
+        <Route path='/Home' element={<Home />}>Home</Route> 
         <Route path='/Services' element={<Services />}>Services</Route> 
         <Route path='/Blog' element={<Blog />}>Blog</Route> 
         <Route path='/Realisations' element={<Realisations />}>Realisations</Route> 
