@@ -23,7 +23,7 @@ function Header() {
                             <a className="nav-link text-uppercase text-white" href="/Realisations">Réalisations</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-uppercase text-white" href="/Blog">Blog</a>
+                            <a className="nav-link text-uppercase text-white"  href="/Blog">Blog</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-uppercase text-white" href="/MeContacter">Me Contacter</a>
@@ -33,6 +33,7 @@ function Header() {
             </div>
         </nav>
        </header>
+       
     )
 };
 
