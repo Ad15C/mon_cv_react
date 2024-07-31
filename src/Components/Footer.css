@@ -3,18 +3,21 @@ Footer {
     display: flex;
     align-items: flex-start;
 
-    .list-unstyled {
+    .list-styled {
         list-style-type: none;
     };
 
-    .list-unstyled li::before{
+    .list-styled li::before {
         content: '>';
         color: blue;
         position: relative;
+        margin-left: none;
+        padding-left: none;
           
     }
 
     .copyright {
         background-color: #444;
     }
+
 }
