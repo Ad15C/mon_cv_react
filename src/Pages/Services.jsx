@@ -6,7 +6,12 @@ import { faMagnifyingGlassDollar } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
     return (
-        <main className="container">
+        <main className="Services">
+            <div class="banner-fixed-top">
+                <div class="banner">
+                </div>
+            </div>
+            <div className="container"></div>
             <h1 className="text-uppercase mt-5">Mon offre de services</h1>
             <p>Voici les prestations sur lesquelles je peux intervenir</p>
             <hr className="titles-underline position-absolute top-5 start-50 translate-middle"></hr>
