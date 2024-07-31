@@ -17,16 +17,16 @@ function Header() {
                             <a className="nav-link text-uppercase text-white active" aria-current="page" href="Home">Accueil</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-uppercase text-white" href="Services">Services</a>
+                            <a className="nav-link text-uppercase text-white" href="/Services">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-uppercase text-white" href="Realisations">Réalisations</a>
+                            <a className="nav-link text-uppercase text-white" href="/Realisations">Réalisations</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-uppercase text-white" href="Blog">Blog</a>
+                            <a className="nav-link text-uppercase text-white" href="/Blog">Blog</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-uppercase text-white" href="Contact">Me Contacter</a>
+                            <a className="nav-link text-uppercase text-white" href="/MeContacter">Me Contacter</a>
                         </li>
                     </ul>
                 </div>
