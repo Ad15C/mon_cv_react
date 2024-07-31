@@ -50,6 +50,22 @@
     text-decoration: underline;
   }
 
+  .banner-fixed-top {
+    background-image: url('https://media.istockphoto.com/id/1403694047/fr/vectoriel/r%C3%A9seau-neuronal-de-lignes-donde-dia-contexte-vectoriel-de-lintelligence-artificielle.jpg?s=2048x2048&w=is&k=20&c=WCag3pi7OhTl12kf11lYvMnCCA37ZJE_mfdYRo-rvbk='); /* Remplacez l'URL par votre image */
+    background-size:cover; /* Pour que l'image couvre toute la div */
+    background-position:100%; /* Pour centrer l'image */
+    background-repeat:repeat-x; /* Pour éviter la répétition de l'image */
+    height: 100px; /* Hauteur de la div */
+    width: 100%;
+    display: flex; /* Pour aligner le contenu */
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Aligner le texte au centre */
+    position: relative;
+   
+  }
+
 
 
 }
