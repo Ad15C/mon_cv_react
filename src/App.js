@@ -7,6 +7,7 @@ import Services from './Pages/Services';
 import Blog from './Pages/Blog';
 import Realisations from './Pages/Realisations';
 import Contact from './Pages/Contact';
+import Mentions from './Pages/Mentions';
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
        <Header />
 
       <Routes>
-        <Route path='/Home' element={<Home />}>Home</Route> 
-        <Route path='/Services' element={<Services />}>Services</Route> 
-        <Route path='/Blog' element={<Blog />}>Blog</Route> 
-        <Route path='/Realisations' element={<Realisations />}>Realisations</Route> 
-        <Route path='/MeContacter' element={<Contact />}>Me Contacter</Route>      
+        <Route path='/Home' element={<Home />}> Home</Route> 
+        <Route path='/Services' element={<Services />}> Services</Route> 
+        <Route path='/Blog' element={<Blog />}> Blog</Route> 
+        <Route path='/Realisations' element={<Realisations />}> Realisations</Route> 
+        <Route path='/MeContacter' element={<Contact />}> Me Contacter</Route>      
+        <Route path='/Mentions' element={<Mentions />}> Mentions Légales </Route>
       </Routes>
 
 

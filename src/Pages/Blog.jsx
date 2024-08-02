@@ -8,7 +8,7 @@ const Blog = () => {
                 </div>
             </div>
             <div className="container">
-                <h1 className="text-uppercase mt-5">Portfolio</h1>
+                <h1 className="text-uppercase mt-5">Blog</h1>
                 <p class="fw-semibold">Retrouvez ici quelques articles sur le développement web.</p>
                 <hr className="titles-underline position-absolute top-5 start-50 translate-middle"></hr>
                 <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
@@ -88,7 +88,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-200">
+                        <div class="card h-90">
                             <img src="code.webp" class="card-img-top" id="code_languages" alt="différents langages informatiques pour coder" />
                             <div class="card-body">
                                 <h5 class="card-title">Apprendre à coder</h5>

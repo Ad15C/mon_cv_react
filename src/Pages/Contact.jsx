@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot, faMobile } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
     return (
@@ -10,17 +12,17 @@ const Contact = () => {
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',}}>
             
-            <div className=" container bg-white">
-                <h1 className="text-uppercase mt-5">Portfolio</h1>
-                <p class="fw-semibold">Retrouvez ici quelques articles sur le développement web.</p>
-                <hr className="titles-underline position-absolute top-5 start-50 translate-middle"></hr>
+            <div className=" container bg-white mt-2">
+                <h1 className="text-uppercase mt-5">Me contacter</h1>
+                <p class="fw-semibold">Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
+                <hr className="titles-underline position-absolute top-5 start-50 translate-middle mt-2"></hr>
                 <div className="container bg-white p-5 rounded shadow-lg mt-5 mb-5">
                     <div className="row">
                         <div className="col-md-6 mb-4">
                             <h3>Formulaire de contact</h3>
                             <hr className="form-underline "></hr>
                         <form>
-                            <div className="mb-3">
+                            <div className="mb-3 mt-5">
                                 <input type="text" 
                                 className="form-control"
                                 id="name" 
@@ -61,11 +63,11 @@ const Contact = () => {
                     <div className="col-md-6 ">
                         <h3>Mes coordonnées</h3>
                         <hr className="form-underline "></hr>
-                        <p class="text-start m-1">
-                            <img src="localisateur.png" alt="logo de localisateur" id="localisateur" />123 rue de la République, 75000 Paris
+                        <p class="text-start mt-5 ms-2">
+                            <FontAwesomeIcon icon={faLocationDot} /> 40 Rue Laure Diebold, 69009 Lyon, France
                         </p>
-                        <p class="text-start m-1">
-                            <img src="telephone.png" alt="logo du telephone" id="telephone" />+33 1 23 45 67 89
+                        <p class="text-start ms-2">
+                            <FontAwesomeIcon icon={faMobile} /> 06 20 30 40 50
                         </p>
            
                         <div className="map-container rounded">
