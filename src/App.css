@@ -70,6 +70,10 @@
     height: 414px;
   }
 
+  #coding , #vente, #positionnement, #responsive, #code_languages, #referencement {
+    height: 300px;
+  }
+
 }
 
 
