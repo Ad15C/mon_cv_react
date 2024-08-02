@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../Components/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub, faTwitterSquare} from '@fortawesome/free-brands-svg-icons';
@@ -18,13 +19,13 @@ function Footer() {
                 </address>
                 <div className="d-flex justify-content-evenly">
                     <a href="https://github.com" className="text-white" aria-label="Github" id="favicon">
-                        <FontAwesomeIcon icon={faGithub} />
+                        <FontAwesomeIcon icon={faGithub}  className="text-black"/>
                     </a>
                     <a href="https://twitter.com" className="text-white" aria-label="Twitter">
-                        <FontAwesomeIcon icon={faTwitterSquare} />
+                        <FontAwesomeIcon icon={faTwitterSquare} className="text-black"/>
                     </a>
                     <a href="https://linkedin.com" className="text-white" aria-label="LinkedIn">
-                        <FontAwesomeIcon icon={faLinkedinIn} />
+                        <FontAwesomeIcon icon={faLinkedinIn} className="text-black"/>
                     </a>
                 </div>
             </div>
@@ -42,10 +43,10 @@ function Footer() {
                             <a class="text-decoration-none text-black" href="#!">Services</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Me contacter</a>
+                            <Link to="MeContacter" className="text-black">Me contacter</Link>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Mentions légales</a>
+                            <Link to="Mentions" className="text-black">Mentions Légales</Link>
                         </li>
                     </ul>
             </div>
