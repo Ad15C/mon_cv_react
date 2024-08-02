@@ -11,9 +11,9 @@ const Services = () => {
                 <div class="banner">
                 </div>
             </div>
-            <div className="container"></div>
+            <div className="container">
             <h1 className="text-uppercase mt-5">Mon offre de services</h1>
-            <p>Voici les prestations sur lesquelles je peux intervenir</p>
+            <p class="fw-semibold">Voici les prestations sur lesquelles je peux intervenir.</p>
             <hr className="titles-underline position-absolute top-5 start-50 translate-middle"></hr>
         
             <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 mt-5" >
@@ -56,7 +56,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-        
+            </div>
         </main>
     );
 }
