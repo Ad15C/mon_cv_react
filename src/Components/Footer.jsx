@@ -17,13 +17,15 @@ function Footer() {
                     <p className="text-start">69009 Lyon, France</p>
                     <p className="text-start">Téléphone: 06 20 30 40 50</p>
                 </address>
-                <div className="d-flex justify-content-evenly">
-                    <a href="https://github.com" className="text-white" aria-label="Github" id="favicon">
-                        <FontAwesomeIcon icon={faGithub}  className="text-black"/>
-                    </a>
+                <div className="d-flex justify-content-evenly ps-0 m-0">
+                    <Link to="Profile" className="text-black">
+                    <FontAwesomeIcon icon={faGithub}  className="text-black"/>
+                    </Link>                 
+                   
                     <a href="https://twitter.com" className="text-white" aria-label="Twitter">
                         <FontAwesomeIcon icon={faTwitterSquare} className="text-black"/>
                     </a>
+                    
                     <a href="https://linkedin.com" className="text-white" aria-label="LinkedIn">
                         <FontAwesomeIcon icon={faLinkedinIn} className="text-black"/>
                     </a>
