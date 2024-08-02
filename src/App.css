@@ -5,7 +5,7 @@
   
   h1, h2 {
     font-weight:600;
-    color: #1e1e1e;
+    color: #eee;
   };
 
   .navbar-nav .nav-item.active .nav-link {
@@ -38,29 +38,30 @@
     color: white; /* Couleur du texte */
     text-align: center; /* Aligner le texte au centre */
     position: relative;
-  }
+  };
 
   .title-underline {
     border: none;
     border-top: 3px solid #0d6efd;
-  }
+  };
 
   .titles-underline {
     border: none;
     width: 20%;
     border-top:3px solid #0d6efd;
-  }
+  };
 
   .card-body {
    min-height: 100px;
-  }
+  };
 
   #desktop, #FileCode , #Glass {
     height: 30px;
-  }
+  };
+
   .underline {
     text-decoration: underline;
-  }
+  };
 
   .banner-fixed-top {
     background-image: url('https://media.istockphoto.com/id/1403694047/fr/vectoriel/r%C3%A9seau-neuronal-de-lignes-donde-dia-contexte-vectoriel-de-lintelligence-artificielle.jpg?s=2048x2048&w=is&k=20&c=WCag3pi7OhTl12kf11lYvMnCCA37ZJE_mfdYRo-rvbk='); /* Remplacez l'URL par votre image */
@@ -76,23 +77,27 @@
     text-align: center; /* Aligner le texte au centre */
     position: relative;
    
-  }
+  };
 
   #fruits {
     height: 414px;
-  }
+  };
 
   #coding , #vente, #positionnement, #responsive, #code_languages, #referencement {
     height: 300px;
-  }
+  };
 
   .form-underline {
     border-top: 3px solid #0d6efd;
-  }
+  };
   
   #localisateur , #telephone{
     height: 20px;
     width: 20px;
+  };
+
+  .github-list {
+    list-style: none;
   }
 
 }
