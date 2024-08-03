@@ -5,7 +5,7 @@
   
   h1, h2 {
     font-weight:600;
-    color: #eee;
+    color: #1e1e1e;
   };
 
   .navbar-nav .nav-item.active .nav-link {
@@ -38,6 +38,7 @@
     color: white; /* Couleur du texte */
     text-align: center; /* Aligner le texte au centre */
     position: relative;
+    background-color: rgba(0,0, 0, 0.3)/*Couleur noire avec transparence */
   };
 
   .title-underline {
