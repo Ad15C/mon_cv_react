@@ -27,28 +27,28 @@ const Header = () => {
                     </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
-                    <li className={`nav-item ${activeItem === 'home' ? 'active' : ''}`}>
-                            <a className="nav-link text-uppercase text-white active" 
+                    <li className="nav-item">
+                            <a className={`nav-link text-uppercase text-white ${activeItem === 'accueil' ? 'active' : ''}`}
                             href="Home"
                             onClick={()=> handleItemClick(Home)}>Accueil</a>
                         </li>
-                        <li className={`nav-item ${activeItem === 'services' ? 'active' : ''}`}>
-                            <a className="nav-link text-uppercase text-white" 
+                        <li className="nav-item">
+                            <a className={`nav-link text-uppercase text-white ${activeItem === 'services' ? 'active' : ''}`} 
                             href="/Services"
                             onClick={()=> handleItemClick(Services)}>Services</a>
                         </li>
-                        <li className={`nav-item ${activeItem === 'realisations' ? 'active' : ''}`}>
-                            <a className="nav-link text-uppercase text-white" 
+                        <li className="nav-item">
+                            <a className={`nav-link text-uppercase text-white ${activeItem === 'realisations' ? 'active' : ''}`}
                             href="/Realisations"
                             onClick={()=> handleItemClick(Realisations)}>Réalisations</a>
                         </li>
-                        <li className={`nav-item ${activeItem === 'blog' ? 'active' : ''}`}>
-                            <a className="nav-link text-uppercase text-white"  
+                        <li className="nav-item">
+                            <a className={`nav-link text-uppercase text-white ${activeItem === 'blog' ? 'active' : ''}`}  
                             href="/Blog"
                             onClick={()=> handleItemClick(Blog)}>Blog</a>
                         </li>
-                        <li className={`nav-item ${activeItem === 'contact' ? 'active' : ''}`}>
-                            <a className="nav-link text-uppercase text-white" 
+                        <li className="nav-item">
+                            <a className={`nav-link text-uppercase text-white ${activeItem === 'contact' ? 'active' : ''}`}
                             href="/MeContacter"
                             onClick={()=> handleItemClick(Contact)}>Me Contacter</a>
                         </li>
