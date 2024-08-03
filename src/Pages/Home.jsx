@@ -1,4 +1,3 @@
-import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 import React from "react";
 
 const Home = () => {
@@ -8,8 +7,8 @@ const Home = () => {
                 <div className="container text-center text-white">
                     <div className="row">
                         <div className="col">
-                            <h1 className="text-center">Bonjour, je suis John Doe</h1>
-                            <h2 className="text-center">Développeur web full stack</h2>
+                            <h1 className="text-center text-white">Bonjour, je suis John Doe</h1>
+                            <h2 className="text-center text-white">Développeur web full stack</h2>
                             <a href="#about">
                                 <button className="mt-4  btn btn-primary"> En savoir plus</button>
                             </a>
@@ -19,17 +18,17 @@ const Home = () => {
    
             </div>
       
-            <div class="container border border-3 py-5 mt-5 mb-5 border-opacity-15 rounded">
-                <div class="row">
-                    <div class="col-md-5 d-flex flex-column justify-content-start">
+            <div className="container col-lg-10 col-md- 12 border border-3 py-5 mt-5 mb-5 border-opacity-15 rounded">
+                <div className="row ">
+                    <div className="col-md-6 d-flex flex-column justify-content-start">
                         <h3 id="about" className="text-start">A Propos</h3>
-                        <hr className="title-underline "></hr>
-                        <p className="text-start lh-base">Passionné par l'informatique et les nouvelles technologies, 
+                        <hr class="title-underline "></hr>
+                        <p class="text-start lh-base">Passionné par l'informatique et les nouvelles technologies, 
                             j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF.
                             Au cours de cette formation, j'ai pu acquérir des bases solides pour 
                             travailler dans le domaine du <strong>développement web</strong>.<br></br>
                         </p>
-                        <p className="text-start lh-base">
+                        <p class="text-start lh-base">
                             Basé à Lyon, je suis en recherche d'alternance au sein d'une agence digitale 
                             pour consolider ma formation de <strong>développeur web full stack</strong>. <br></br>
                         </p>
@@ -37,9 +36,13 @@ const Home = () => {
                             j'écris et je respecte les bonnes pratiques du web.</p>
                         </div>
                         
-                    <div class="col-md-5 d-flex flex-column justify-content-center">
+                    <div class="col-md-6 d-flex flex-column justify-content-center">
                         <div className="text-center mb-4">
-                            <img src="a_propos.jpg" alt="Photo de Profil de John Doe" id="about-img"></img>
+                            <img src="a_propos.jpg" 
+                            alt="Photo de Profil de John Doe" 
+                            id="about-img"
+                            style={{ maxWidth: "100%", height: "auto", borderRadius: "5px" }}>
+                            </img>
                         </div>
                         
                         <div className="Competences">

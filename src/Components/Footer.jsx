@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import '../Components/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,9 +13,9 @@ function Footer() {
                 <div className="col-md-3 col-sm-6 mb-3">
                 <address>
                     <h6 className="fw-bold text-start">John Doe</h6>
-                    <p className="text-start">40 rue Laure Debiold</p>
-                    <p className="text-start">69009 Lyon, France</p>
-                    <p className="text-start">Téléphone: 06 20 30 40 50</p>
+                    <p className="text-start lh-1">40 rue Laure Debiold</p>
+                    <p className="text-start lh-1">69009 Lyon, France</p>
+                    <p className="text-start lh-1">Téléphone: 06 20 30 40 50</p>
                 </address>
                 <div className="d-flex justify-content-evenly ps-0 m-0">
                     <Link to="Profile" className="text-black">
@@ -36,13 +36,13 @@ function Footer() {
                 <h6 className="fw-bold text-start">Liens utiles</h6>
                     <ul className="list-styled mb-0 text-start">
                         <li>
-                            <a class="text-decoration-none text-black " href="#!">Accueil</a>
+                            <Link to="Home" className="text-black">Accueil</Link>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black " href="#!">A Propos</a>
+                            <Link to="#" className="text-black">A Propos</Link>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Services</a>
+                            <Link to="Services" className="text-black">Services</Link>
                         </li>
                         <li>
                             <Link to="MeContacter" className="text-black">Me contacter</Link>
@@ -56,13 +56,13 @@ function Footer() {
                 <h6 className="fw-bold text-start">Mes dernières réalisations</h6>
                     <ul className="list-styled mb-0 text-start">
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Fresh Food</a>
+                            <a class="text-decoration-none text-black" href="Realisations">Fresh Food</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Restaurant Akira</a>
+                            <a class="text-decoration-none text-black" href="Realisations">Restaurant Akira</a>
                         </li>
                         <li>
-                            <a class="text-decoration-none text-black" href="#!">Espace bien-être</a>
+                            <a class="text-decoration-none text-black" href="Realisations">Espace bien-être</a>
                         </li>
                     </ul>
 
@@ -71,13 +71,13 @@ function Footer() {
                 <h6 className="fw-bold text-start">Mes derniers articles</h6>
                     <ul className="list-styled mb-0 text-start">
                         <li>
-                            <a className="text-decoration-none text-black" href="#!">Coder son site en HTML/CSS</a>
+                            <a className="text-decoration-none text-black" href="Blog">Coder son site en HTML/CSS</a>
                         </li>
                         <li>
-                            <a className="text-decoration-none text-black" href="#!">Vendre ses produits sur le web</a>
+                            <a className="text-decoration-none text-black" href="Blog">Vendre ses produits sur le web</a>
                         </li>
                         <li>
-                            <a className="text-decoration-none text-black" href="#!">Se positionner sur Google</a>
+                            <a className="text-decoration-none text-black" href="Blog">Se positionner sur Google</a>
                         </li>
                     </ul>
             </div> 
