@@ -1,22 +1,22 @@
 header{
     background-color: #444;
-    
-    .navbar-toggler {
-        color: white;
-    };
+}
 
-    .navbar-nav .nav-link.active {
-        color: #0d6efd !important; /* Couleur du lien actif */
-        font-weight: bold;
-    };
-      
-      .navbar-nav .nav-link {
-        transition: color 0.2s ease-in-out;
-    };
-          
-      .navbar-light .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2855, 55, 55, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Icône hamburger personnalisée */
-    };
+.navbar-toggler {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0d6efd !important; /* Couleur du lien actif */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.2s ease-in-out;
+}
+    
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2855, 55, 55, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Icône hamburger personnalisée */
 }
 
 
