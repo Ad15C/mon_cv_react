@@ -26,7 +26,7 @@ function App() {
         <Route path='/MeContacter' element={<Contact />}> Me Contacter</Route>      
         <Route path='/Mentions' element={<Mentions />}> Mentions Légales </Route>
         <Route path='/Profile' element={<Profile />}>Profil</Route>
-        <Route path='*' element={<NotFound />}> </Route>
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
 

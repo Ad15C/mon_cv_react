@@ -20,8 +20,8 @@ const ScrollToTopButton = () => {
     
      // Gestionnaire d'événement pour le défilement
   const handleScroll = () => {
-    const scrollTop = window.pageY || document.documentElement.scrollTop;
-    setIsVisible(scrollTop > 200); // Afficher le bouton après 300 pixels de défilement
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    setIsVisible(scrollTop > 200); // Afficher le bouton après 200 pixels de défilement
   };
 
     // Ajouter l'écouteur d'événement de défilement
