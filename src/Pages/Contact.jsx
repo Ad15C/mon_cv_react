@@ -5,12 +5,12 @@ import { faLocationDot, faMobile } from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
     return (
         <main className="contact ">
-            <div className="container-fluid min-vh-100 d-flex justify-content-center align-items-center"
+            <div className="container-fluid min-vh-100 d-flex justify-content-center align-items-center" id="img_bckgrd"
                 style={{
                     backgroundImage: 'url(https://cdn.pixabay.com/photo/2020/01/06/08/25/letters-4744854_1280.jpg',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',}}>
+                    backgroundRepeat: 'no-repeat'}}>
             
             <div className=" container bg-white mt-2">
                 <h1 className="text-uppercase mt-5">Me contacter</h1>
