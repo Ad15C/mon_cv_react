@@ -57,6 +57,10 @@
    min-height: 100px;
   };
 
+  #img_bckgrd {
+    background-color: rgba(0,105, 255, 0.5);
+  };
+
   #desktop, #FileCode , #Glass {
     height: 30px;
   };
