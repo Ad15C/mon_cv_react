@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import '../Components/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub, faTwitterSquare} from '@fortawesome/free-brands-svg-icons';
+import ScrollToTopButton from "./ScrollToTopButton.jsx";
 
 
 function Footer() {
+
   return (
     <footer className="text-black">
         <div className="container">
@@ -85,6 +87,7 @@ function Footer() {
         <div className="text-center py-2">
             <div className="copyright text-white">
                 <small className="m-0">&copy; Designed by John Doe</small>
+                <ScrollToTopButton />
             </div>
         </div>
     </div>
