@@ -21,6 +21,9 @@
     color: #0d6efd; /* Couleur au survol pour tous les liens */
   }
 
+#services:hover {
+  background-color: #cde1f8;
+}
 
   p {
     font-weight: 400;

@@ -17,22 +17,23 @@ const Services = () => {
             <hr className="titles-underline position-absolute top-5 start-50 translate-middle"></hr>
         
             <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 mt-5" >
-                <div class="grid gap-3">
-
-                    <div class="card h-100 .bg-white ">
-                        <div class="card-body mt-5 mb-5">
-                        <FontAwesomeIcon icon= {faDesktop} style={{color:"#2379fb"}} id="desktop"/>
-                            <h5 class="card-title text-uppercase fw-bold">UX Design</h5>
-                                <p class="card-text text-center">
-                                    L'<strong>UX Design</strong> est une méthode de conception centrée 
-                                    sur l'utilisateur. Son but est d'offrir une expérience de navigation
-                                    optimale à l'internaute.
-                                </p>
+                <div class="col" id="services"> 
+                    <div class="grid gap-3">
+                        <div class="card h-100 .bg-white" >
+                            <div class="card-body mt-5 mb-5">
+                                <FontAwesomeIcon icon= {faDesktop} style={{color:"#2379fb"}} id="desktop"/>
+                                    <h5 class="card-title text-uppercase fw-bold">UX Design</h5>
+                                    <p class="card-text text-center">
+                                        L'<strong>UX Design</strong> est une méthode de conception centrée 
+                                        sur l'utilisateur. Son but est d'offrir une expérience de navigation
+                                        optimale à l'internaute.
+                                    </p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col">
+                <div class="col" id="services">
                     <div class="card h-100">
                         <div class="card-body mt-5 mb-5">
                         <FontAwesomeIcon icon= {faFileCode} style={{color:"#2379fb"}} id="FileCode"/>
@@ -44,7 +45,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col" id="services">
                     <div class="card h-100">
                         <div class="card-body mt-5 mb-5">
                             <FontAwesomeIcon icon={faMagnifyingGlassDollar} style={{color:"#2379fb"}} id="Glass"/>
