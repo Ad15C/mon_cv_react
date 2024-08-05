@@ -19,16 +19,16 @@ function Footer() {
                     <p className="text-start lh-1">69009 Lyon, France</p>
                     <p className="text-start lh-1">Téléphone: 06 20 30 40 50</p>
                 </address>
-                <div className="d-flex justify-content-evenly ps-0 m-0">
-                    <Link to="Profile" className="text-black">
+                <div className="d-flex align-items-center ps-0 m-0">
+                    <Link to="Profile" className="text-black p-2 ">
                     <FontAwesomeIcon icon={faGithub}  className="text-black"/>
                     </Link>                 
                    
-                    <a href="https://twitter.com" className="text-white" aria-label="Twitter">
+                    <a href="https://twitter.com" className="text-white p-2" aria-label="Twitter">
                         <FontAwesomeIcon icon={faTwitterSquare} className="text-black"/>
                     </a>
                     
-                    <a href="https://linkedin.com" className="text-white" aria-label="LinkedIn">
+                    <a href="https://linkedin.com" className="text-white p-2" aria-label="LinkedIn">
                         <FontAwesomeIcon icon={faLinkedinIn} className="text-black"/>
                     </a>
                 </div>
