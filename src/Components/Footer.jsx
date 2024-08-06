@@ -13,11 +13,11 @@ function Footer() {
         <div className="container">
             <div className="row py-4">
                 <div className="col-md-3 col-sm-6 mb-3">
-                <address>
-                    <h6 className="fw-bold text-start">John Doe</h6>
-                    <p className="text-start lh-1">40 rue Laure Debiold</p>
-                    <p className="text-start lh-1">69009 Lyon, France</p>
-                    <p className="text-start lh-1">Téléphone: 06 20 30 40 50</p>
+                <h6 className="fw-bold text-start">John Doe</h6>
+                <address className="custom-adress" >
+                    <p className="text-start">40 rue Laure Debiold</p>
+                    <p className="text-start">69009 Lyon, France</p>
+                    <p className="text-start">Téléphone: 06 20 30 40 50</p>
                 </address>
                 <div className="d-flex align-items-center ps-0 m-0">
                     <Link to="/Profile" className="text-black p-2 ">
@@ -35,8 +35,8 @@ function Footer() {
             </div>
 
             <div className="col-md-3 col-sm-6 mb-3">
-                <h6 className="fw-bold text-start ">Liens utiles</h6>
-                    <ul className="list-styled mb-0 text-start ml-1">
+                <h6 className="fw-bold text-start">Liens utiles</h6>
+                    <ul className="list-styled mb-0 text-start">
                         <li>
                             <Link to="/Home" className="text-decoration-none text-black">Accueil</Link>
                         </li>
@@ -84,7 +84,7 @@ function Footer() {
                     </ul>
             </div> 
         </div>
-        <div className="text-center py-2">
+        <div className="full-width-footer text-center py-2">
             <div className="copyright text-white">
                 <small className="m-0">&copy; Designed by John Doe</small>
                 <ScrollToTopButton />

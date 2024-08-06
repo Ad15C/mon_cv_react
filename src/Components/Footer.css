@@ -4,20 +4,35 @@ Footer {
     align-items: flex-start;
 }
 
+.custom-adress p {
+    line-height: 1;
+}
+
 .list-styled {
     list-style-type: none; /* Enlève les points */
     padding-left: 0; 
 }
 
 .list-styled li::before {
-    content: '>';
-    color: blue;
+    content: '>'; /* Changement de la puce */
+    color: blue; /* Changement de la couleur de la puce */
     position: relative;
-    margin-left: none;
-    padding-left: none;
+    margin-left: 0;
+    padding-left: 0;
       
 }
 
+.full-width-footer {
+   background-color: #444; /* Couleur de fond */
+    width: 100vw; /* Utilise toute la largeur de la fenêtre du navigateur */
+    margin-left: calc(-50vw + 50%); /* Réduit la marge pour étendre l'élément */
+    position: relative; /* Pour s'assurer que la position est alignée correctement */
+    display: flex; /* Pour l'alignementdu contenu */
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    padding: 10px 0; /* Ajout du padding pour plus d'espace autour du texte */
+}
+
 .copyright {
-    background-color: #444;
+   max-width: 1200px;
 }
