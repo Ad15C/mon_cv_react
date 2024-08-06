@@ -9,8 +9,8 @@ const Home = () => {
                         <div className="col">
                             <h1 className="text-center text-white fs-1" id="presentation-title">Bonjour, je suis John Doe</h1>
                             <h2 className="text-center text-white fs-2" id="title-2">Développeur web full stack</h2>
-                            <a href="#about">
-                                <button className="mt-4  btn btn-primary"> En savoir plus</button>
+                            <a href="#about" className="mt-4 btn btn-primary">
+                                 En savoir plus
                             </a>
                         </div>
                     </div>
