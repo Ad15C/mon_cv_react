@@ -35,8 +35,8 @@ function Footer() {
             </div>
 
             <div className="col-md-3 col-sm-6 mb-3">
-                <h6 className="fw-bold text-start">Liens utiles</h6>
-                    <ul className="list-styled mb-0 text-start">
+                <h6 className="fw-bold text-start ">Liens utiles</h6>
+                    <ul className="list-styled mb-0 text-start ml-1">
                         <li>
                             <Link to="/Home" className="text-decoration-none text-black">Accueil</Link>
                         </li>

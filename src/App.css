@@ -62,7 +62,7 @@ strong {
 }
 
 .card-body {
- min-height: 100px;
+ min-height: 200px;
 }
 
 .card-img-top {
@@ -70,6 +70,22 @@ strong {
   height: auto; /*Ajuste la hauteur proportionnellement à la largeur */
   max-height: 500px; /*Limite la hauteur maximale de l'image */
   object-fit: cover; /*Assure que l'image couvre entièrement le conteneur */
+}
+
+.card {
+  border: none; /* Enlève la bordure de la carte */
+  margin: 0; /* Enlève les marges externes de la carte */
+  padding: 0; /* Enlève le padding de la carte */
+}
+
+.card-image-top {
+  width: auto; /* Prend toute  la largeur de son conteneur */
+  height: 300px; /* Hauteur fixe pour l'uniformité */
+  object-fit: fill; /* L'image est étirée pour remplir entièrement le conteneur */
+  object-position: center; /* Centre l'image dans son conteneur */
+  margin: 0; /* Enlève les marges autour de l'image */
+  padding: 0 ;/* Enlève le padding autour de l'image */
+  display: block; /* S'assure que l'image s'affiche en tant qu'élément bloc pour supprimer les espaces blancs */
 }
 
 #img_bckgrd {
@@ -100,9 +116,7 @@ strong {
  
 }
 
-#fruits {
-  height: 414px;
-}
+
 
 #coding , #vente, #positionnement, #responsive, #code_languages, #referencement {
   height: 300px;
