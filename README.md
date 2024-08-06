@@ -24,6 +24,11 @@ Le code doit être valide au regard des normes du W3C.
     **_Favicon_**
 
         Ce dernier est un logo textuel qui est repris dans la barre de navigation.
+        Sinon utilisation de Font Awesome 6 pour les différentes icônes.
+    
+    **_Images_**
+
+        Utilisation d'images libres de droit sur Pixabay.
 
     **_Couleurs_**
        
@@ -98,7 +103,7 @@ Le code doit être valide au regard des normes du W3C.
         - Pour cela, copiez l'adresse URL du projet GitHub.
         - Ouvrez votre Terminal de système d'exploitation
         - Utilisez la commande 'cd' pour naviguer vers le répertoire où vous souhaitez cloner le référentiel
-        (cd mon_portfolio)
+        (cd mon_cv_react)
         - Utilisez la commande git clone de l'URL
         (ex: 'git clone https://github.com/utilisateur/nom-du-repo.git')
 
