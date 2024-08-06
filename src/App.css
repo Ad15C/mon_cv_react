@@ -65,6 +65,13 @@ strong {
  min-height: 100px;
 }
 
+.card-img-top {
+  width: 100%; /* Prend 100% de la largeur du conteneur parent */
+  height: auto; /*Ajuste la hauteur proportionnellement à la largeur */
+  max-height: 500px; /*Limite la hauteur maximale de l'image */
+  object-fit: cover; /*Assure que l'image couvre entièrement le conteneur */
+}
+
 #img_bckgrd {
   background-color: rgba(0,105, 255, 0.5);
 }
