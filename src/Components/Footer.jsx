@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub, faTwitterSquare} from '@fortawesome/free-brands-svg-icons';
 import ScrollToTopButton from "./ScrollToTopButton.jsx";
 
-
 function Footer() {
 
   return (
