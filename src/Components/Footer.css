@@ -5,7 +5,8 @@ Footer {
 }
 
 .list-styled {
-    list-style-type: none;
+    list-style-type: none; /* Enlève les points */
+    padding-left: 0; 
 }
 
 .list-styled li::before {

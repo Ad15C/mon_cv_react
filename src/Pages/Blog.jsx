@@ -15,7 +15,7 @@ const Blog = () => {
                         <div className="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
                             <div className="col">
                                 <div className="card h-100">
-                                    <img src="coding.jpg" class="card-img-top" id="coding" alt="lignes de code"/>
+                                    <img src="coding.jpg" className="card-image-top mt-0" id="coding" alt="lignes de code"/>
                                         <div className="card-body">
                                             <h5 className="card-title">Coder son site en HTML/CSS</h5>
                                                 <p className="card-text">Some quick example text to build on the title and make up the bulk of the card's content</p>
@@ -30,7 +30,7 @@ const Blog = () => {
                             </div>
                             <div className="col">
                                 <div class="card h-100">
-                                    <img src="vente.jpg" className="card-img-top" id="vente" alt="image avec argent gagné"/>
+                                    <img src="vente.jpg" className="card-image-top" id="vente" alt="image avec argent gagné"/>
                                         <div className="card-body">
                                             <h5 className="card-title">Vendre ses produits sur le web</h5>
                                                 <p className="card-text">Some quick exemple text to build on the card title and make up the bulk of the card's content.</p>
@@ -45,7 +45,7 @@ const Blog = () => {
                             </div>
                             <div className="col">
                                 <div class="card h-100">
-                                    <img src="positionnement.jpg" className="card-img-top" id="positionnement" alt="image de matériel informatique" />
+                                    <img src="positionnement.jpg" className="card-image-top" id="positionnement" alt="image de matériel informatique" />
                                         <div className="card-body">
                                             <h5 className="card-title">Se positionner sur Google</h5>
                                                 <p className="card-text">Some quick exemple text to build on the card title and make up the bulk of the card's content.</p>
@@ -60,7 +60,7 @@ const Blog = () => {
                             </div>
                             <div className="col">
                                 <div className="card h-100">
-                                    <img src="responsive.jpg" className="card-img-top" id="responsive" alt="image avec les différents surpports pour le resposive design" />
+                                    <img src="responsive.jpg" className="card-image-top" id="responsive" alt="image avec les différents surpports pour le resposive design" />
                                         <div className="card-body">
                                             <h5 className="card-title">Coder en responsive design</h5>
                                                 <p className="card-text">Some quick exemple text to build on the card title and make up the bulk of the card's content.</p>
@@ -75,7 +75,7 @@ const Blog = () => {
                             </div>
                             <div className="col">
                                 <div className="card h-100">
-                                    <img src="referencement.jpg" className="card-img-top" id="referencement" alt="image expliquant le référencement SEO" />
+                                    <img src="referencement.jpg" className="card-image-top" id="referencement" alt="image expliquant le référencement SEO" />
                                         <div className="card-body">
                                             <h5 className="card-title">Techniques de référencement</h5>
                                                 <p className="card-text">Some quick exemple text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,7 +90,7 @@ const Blog = () => {
                             </div>
                             <div className="col">
                                 <div className="card h-90">
-                                    <img src="code.webp" className="card-img-top" id="code_languages" alt="différents langages informatiques pour coder" />
+                                    <img src="code.webp" className="card-image-top" id="code_languages" alt="différents langages informatiques pour coder" />
                                         <div className="card-body">
                                             <h5 className="card-title">Apprendre à coder</h5>
                                                 <p className="card-text">Some quick exemple text to build on the card title and make up the bulk of the card's content.</p>
