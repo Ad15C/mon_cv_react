@@ -36,8 +36,10 @@ const Profile = () => {
                     <li className="github-list">Créé le :  {formatDate("2016-06-09T17:14:00Z")}</li>
                     <li className="github-list">Modifié le : {formatDate("2021-10-12T05:01:09Z")}</li>
                     <li className="github-list">URL repositories : 
-                        <a className="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover ps-2" href="https://api.github.com/github-john-doe/repos">
-                         https://api.github.com/github-john-doe/repos
+                        <a 
+                            className="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover ps-2" 
+                            href="https://api.github.com/github-john-doe/repos">
+                                https://api.github.com/github-john-doe/repos
                         </a> 
                     </li>
                 </ul>
