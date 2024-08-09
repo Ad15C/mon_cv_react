@@ -1,7 +1,8 @@
 Footer {
-    background-color: #44444463;
+    background-color: #EEEEEE;
     display: flex;
     align-items: flex-start;
+    border-top: #EEEEEE solid 3px;
 }
 
 .custom-adress p {
@@ -21,9 +22,16 @@ Footer {
     padding-left: 0;
       
 }
+ 
+#networks-Github, #networks-Twitter , #networks-Linkedin {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .full-width-footer {
-   background-color: #444; /* Couleur de fond */
+   background-color: #212429; /* Couleur de fond */
     width: 100vw; /* Utilise toute la largeur de la fenêtre du navigateur */
     margin-left: calc(-50vw + 50%); /* Réduit la marge pour étendre l'élément */
     position: relative; /* Pour s'assurer que la position est alignée correctement */
@@ -31,6 +39,8 @@ Footer {
     justify-content: center; /* Centre le contenu horizontalement */
     align-items: center; /* Centre le contenu verticalement */
     padding: 10px 0; /* Ajout du padding pour plus d'espace autour du texte */
+    margin-bottom: 30px;
+    height: 40px;
 }
 
 .copyright {

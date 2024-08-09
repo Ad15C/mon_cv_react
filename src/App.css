@@ -1,29 +1,19 @@
 .App {
   text-align: center;
   font-family: 'Nunito Sans';
-  background-color: #eee;
+  background-color: #f8f9fb;
 }
 
-#presentation-title, #title-2 {
+#presentation-title {
   font-weight:600;
   color: #1e1e1e;
+  font-size:100px;
 }
-
-.nav-link.active {
-  color: #0d6efd; /* Changez cette couleur pour l'élément actif */
-  font-weight: bold; /* Ajoutez d'autres styles comme l'épaisseur de la police */
-}
-
-.nav-link {
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #0d6efd; /* Couleur au survol pour tous les liens */
-}
-
-#services:hover {
-  background-color: #cde1f8;
+#title-2 {
+  font-weight:600;
+  color: #1e1e1e;
+  font-size:50px;
+  
 }
 
 p {
@@ -47,18 +37,23 @@ strong {
   color: white;
   text-align: center; 
   position: relative;
-  background-color: rgba(0,0, 0, 0.3) /*Couleur noire avec transparence */
+  background-color: rgba(0,0, 0, 0.3);
+}
+
+#services {
+  margin-top: 40px;
+  padding-top: 25px;
 }
 
 .title-underline {
   border: none;
-  border-top: 3px solid #0d6efd;
+  border-top: 5px solid #0d6dff;
 }
 
 .titles-underline {
   border: none;
   width: 20%;
-  border-top:3px solid #0d6efd;
+  border-top:5px solid #0d6dff;
 }
 
 .card-body {
@@ -67,7 +62,7 @@ strong {
 
 .card-img-top {
   width: 100%; /* Prend 100% de la largeur du conteneur parent */
-  height: auto; /*Ajuste la hauteur proportionnellement à la largeur */
+  height: 400px; /*Ajuste la hauteur proportionnellement à la largeur */
   max-height: 500px; /*Limite la hauteur maximale de l'image */
   object-fit: cover; /*Assure que l'image couvre entièrement le conteneur */
 }
@@ -80,7 +75,7 @@ strong {
 
 .card-image-top {
   width: auto; /* Prend toute  la largeur de son conteneur */
-  height: 300px; /* Hauteur fixe pour l'uniformité */
+  height: 400px; /* Hauteur fixe pour l'uniformité */
   object-fit: fill; /* L'image est étirée pour remplir entièrement le conteneur */
   object-position: center; /* Centre l'image dans son conteneur */
   margin: 0; /* Enlève les marges autour de l'image */
@@ -88,12 +83,29 @@ strong {
   display: block; /* S'assure que l'image s'affiche en tant qu'élément bloc pour supprimer les espaces blancs */
 }
 
-#img_bckgrd {
-  background-color: rgba(0,105, 255, 0.5);
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,105,255,0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: opacity 0.3s ease;
+  opacity: 0.5;
 }
+
+
 
 #desktop, #FileCode , #Glass {
   height: 30px;
+}
+
+#desktop :hover, #FileCode :hover, #Glass :hover {
+  color: #444;
 }
 
 .underline {
@@ -105,21 +117,53 @@ strong {
   background-size:cover; /* Pour que l'image couvre toute la div */
   background-position:100%; /* Pour centrer l'image */
   background-repeat:repeat-x; /* Pour éviter la répétition de l'image */
-  height: 100px; /* Hauteur de la div */
+  height: 150px; /* Hauteur de la div */
   width: 100%;
   display: flex; /* Pour aligner le contenu */
   align-items: center; /* Centrer verticalement */
   justify-content: center; /* Centrer horizontalement */
   color: white; /* Couleur du texte */
   text-align: center; /* Aligner le texte au centre */
-  position: relative;
- 
+  position: relative; 
 }
-
-
 
 #coding , #vente, #positionnement, #responsive, #code_languages, #referencement {
   height: 300px;
+}
+
+.btn-primary {
+  width: 150px;
+  background-color: #007bff; /* Couleur de fond primaire */
+  border: none; /* Supprime les bordures par défaut */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Padding intérieur */
+  text-align: center; /* Centrage du texte */
+  text-decoration: none; /* Supprime le soulignement */
+  display: inline-block; /* Affichage en ligne avec dimensions */
+  font-size: 16px; /* Taille de police */
+  transition: background-color 0.3s ease; /* Transition pour l'effet hover */
+  border-radius: 5px; /* Coins arrondis */
+}
+
+/* Effet au survol */
+.btn-primary:hover {
+  background-color: #0056b3; /* Changement de couleur au survol */
+  text-decoration: none; /* Supprime le soulignement au survol */
+}
+
+/* Classe personnalisée pour le bouton */
+.custom-btn {
+  font-weight: bold; /* Texte en gras */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+  margin-top: 15px; /* Marge supérieure */
+}
+
+/* Adaptation pour les écrans plus petits */
+@media (max-width: 768px) {
+  .btn-primary {
+    font-size: 14px; /* Taille de police réduite */
+    padding: 8px 16px; /* Padding intérieur réduit */
+  }
 }
 
 .form-underline {
